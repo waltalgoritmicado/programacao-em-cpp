@@ -4,13 +4,9 @@
 using namespace std;
 
 int main() {
-	const int Lua = 238857;
-	cout << "Distância até a lua " << Lua;
-	cout << " milhas\n";
-	int lua_kilo;
-	lua_kilo= Lua * 1.609;
-	cout << "Em quilômetros é " << lua_kilo;
-	cout << " km.\n";
+	int aux = 5*4;
+	cout << "Duas vezes " << aux << " eh " << 2*aux << "\n";
+	cout << "Três vezes " << aux << " eh " << 3*aux << "\n";
 
 	return 0;
 }
